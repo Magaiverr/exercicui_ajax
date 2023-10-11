@@ -1,0 +1,113 @@
+:root {
+    --header-color: #01a3a4;
+    --bg-color: #eee;
+}
+
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+body {
+    background-color: var(--bg-color);;
+}
+
+.container {
+    max-width: 640px;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+header {
+    background-color: var(--header-color);
+    text-align: center;
+    height: 25vh;
+}
+
+header .container {
+    position: relative;
+    bottom: -50%;
+}
+
+.profile-avatar {
+    border-radius: 50%;
+    margin-bottom: 6vh;
+    width: 180px;
+    height: 180px;
+}
+
+.search {
+    padding-bottom: 1vh;
+}
+
+#fetch-data {
+    background-color: #01a3a4; 
+    color: #fff;
+    border: none; 
+    padding: 8px 16px; 
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+#fetch-data:hover {
+    background-color: #008181; 
+}
+
+#github-username {
+    padding: 10px; 
+    font-size: 16px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+#github-username:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+.profile-name {
+    font-size: 2em;
+}
+
+.profile-username {
+    margin: 16px 0 32px;
+    font-size: 1.1em;
+}
+
+.ver {
+    padding-top: 3vh;
+}
+
+.profile-link {
+    background-color: var(--header-color);
+    color: var(--bg-color);
+    padding: 8px 16px;
+    display: inline-block;
+    margin-top: 24px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+a {
+    padding-top: 20px;
+}
+
+.numbers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.numbers-item {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.numbers-item h4 {
+    font-size: .3em;
+}
